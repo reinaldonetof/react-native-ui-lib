@@ -15,7 +15,7 @@ interface Theme {
     components: Extendable
 }
 
-export class ThemeManager {
+class ThemeManager {
   private themeContext?: Context<any>;
 
   theme: Theme = {
