@@ -1,6 +1,7 @@
 /* ===== General Stuff ===== */
 export {default as Assets} from './assets';
 export * from './style';
+export {default as ThemeManager, ThemeManagerClass} from './style/themeManager';
 export * from './services';
 export * from '../lib/components';
 export {
