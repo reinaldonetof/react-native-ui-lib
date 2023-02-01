@@ -114,4 +114,5 @@ export class ThemeManager {
   }
 }
 
+export {ThemeManager as ThemeManagerClass};
 export default new ThemeManager();
